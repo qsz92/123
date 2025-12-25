@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.article-content {
+  line-height: 1.75;
+}
+
+.article-content p {
+  margin-bottom: 1.5rem;
+  color: #201E1D;
+}
+
+.article-content h2 {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: #201E1D;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+.article-content h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #201E1D;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.article-content ul,
+.article-content ol {
+  margin-bottom: 1.5rem;
+  padding-left: 1.5rem;
+  color: #201E1D;
+}
+
+.article-content li {
+  margin-bottom: 0.5rem;
+}
+
+.article-content ul li {
+  list-style-type: disc;
+}
+
+.article-content ol li {
+  list-style-type: decimal;
+}
+
+.article-content a {
+  color: #FC7321;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+
+.article-content a:hover {
+  color: #e66818;
+}
+
+.article-content strong {
+  font-weight: 600;
+  color: #201E1D;
+}
